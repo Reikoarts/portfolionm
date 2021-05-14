@@ -904,16 +904,9 @@ section {
 	.tl-content p{
 	font-size: 1rem;
 	}
-	.tl-content {
-		top: 55%; /*text align*/
-	}
 	.tl-content p{
 		font-size: 1rem;
 	}
-	.tl-year {
-		top: 50%;	/*titre align*/
-	}
-
 
 }
 
@@ -986,6 +979,12 @@ section {
 }
 
 @media (max-width: 770px){
+	.popup{
+	width: 100%;
+}
+.popup2{
+	width: 100%;
+}
 
 }
 
