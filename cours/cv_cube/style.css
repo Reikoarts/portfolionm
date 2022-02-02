@@ -1,0 +1,811 @@
+@import url(assets/font/RetroGaming.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Montserrat";
+    -webkit-print-color-adjust: exact !important;
+}
+
+.bold_font{
+    font-weight: bolder;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+header p {
+    text-align: left;
+}
+
+
+.page{
+    background-color: #fff9e8;
+}
+
+.title_img{
+    position: relative;
+    top: 15vh;
+    width: 40vw;
+}
+
+
+.lien_martin {
+    background-image: url("assets/img/message.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3vh;
+    text-align: left;
+
+}
+
+.lien_martin a{
+    text-decoration: none;
+    color: white;
+    font-family: "Retro Gaming";
+    font-size: 10px;
+}
+
+
+
+                                                                    /*PREsenTATIOn*/
+.presentation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.portrait{
+    margin-top: 18vh;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+}
+
+
+.presentation p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 4vw;
+    font-size: 21px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 60vw;
+    background-color: #4a80c1;
+    border-left: 5px solid #2e5e94;
+    border-bottom: 5px solid #2e5e94;
+    color: white;
+    text-align: left;
+}
+.personnage_presentation{
+    position: absolute;
+    width: 7%;
+    top: 52vh;
+    left: 10vh;
+}
+
+.diamant_svg{
+    position: absolute;
+    top:42vh;
+    right: 41vh;
+    width: 6%;
+}
+
+
+
+
+.creativite, .ecriture, .design{
+    width: 100%;
+}
+
+
+.competence img,.formation img{
+    margin-top: 12%;
+    width: 40%;
+}
+
+
+.competence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.coffre{
+    margin-top: 6%;
+    width: 20%;
+}
+
+.titre_competences{
+    font-family: "Retro Gaming";
+    font-size: 25px;
+}
+
+
+.formation div{
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 13%;
+    line-height: 25px;
+    text-align: left;
+}
+
+
+
+
+.experience{
+    border-left: 1px solid #e67854;
+    border-right: 1px solid #e67854;
+    height: 450px;
+}
+
+
+.ubisoft, .webagency{
+    display: flex;
+    margin-left: 12%;
+}
+
+.chiffre_experience{
+    width: 20%;
+}
+
+.information_experience{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Montserrat";
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+.couronne_title_icon{
+    display: none;
+}
+
+
+.information{
+    background-image: url(assets/img/banniere.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.more{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block_gauche{
+    display: flex;
+    height: 450px;
+}
+
+.competence_perso{
+    margin-top: 40px;
+}
+
+.one_competence{
+    display: flex;
+}
+.one_competence p{
+    text-align: left;
+    vertical-align: middle;
+    width: 180px;
+}
+
+.Pbar{
+    background: rgb(91,149,73);
+    background: linear-gradient(0deg, rgba(91,149,73,1) 0%, rgba(172,207,125,1) 31%, rgba(203,225,177,1) 68%, rgba(222,235,203,1) 100%);
+    border-right: 5PX solid green;
+    border-bottom: 5PX solid green;
+    width: 250px;
+    height: 25px;
+    margin-top: 3%;
+    margin-left: 6em;
+    align-items: left;
+    -webkit-box-shadow: 5px 6px 1px 0px #bead93; 
+    box-shadow: 5px 6px 1px 0px #bead93;
+}
+
+.Pbar_vide{
+    width: 93%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    background-color: #528543;
+}
+
+.Pbar_pleine{
+    width: 50%;
+    height: 100%;
+    background-color: #f7d535;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block_gauche h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border-right: 5px solid #9b2e18;
+    padding-right: 25px;
+}
+
+.multi_logo{
+    display: flex;
+}
+
+.hobbies{
+    margin-top: -100px;
+    display: flex;
+    /*margin-top: -100px;*/
+}
+
+.hobbies h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border-right: 5px solid #9b2e18;
+    padding-right: 25px;
+}
+
+
+
+.side_lang{
+    margin-bottom: 50px;
+}
+
+.logo_hobbies img{
+    vertical-align:middle;
+    width: 120px;
+    padding: 25px;
+}
+
+
+
+.langues{
+    display: flex;
+    margin-top: 50px;
+    width: 520px;
+}
+
+.langues h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border-right: 5px solid #9b2e18;
+    padding-right: 25px;
+}
+
+.drapeau{
+    padding: 10px;
+    width: 80px;
+    margin-left: 35px;
+}
+
+.drapeau_icon{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.drapeau_france::after{
+    content: "Courant";
+    position: relative;
+    margin-left: -40%;
+    top: -20px;
+}
+
+.drapeau_allemagne::after{
+    content: "Mittlere";
+    position: relative;
+    margin-left: -40%;
+    top: -20px;
+
+}
+
+.drapeau_anglais::after{
+    content: "Fluent";
+    position: relative;
+    margin-left: -40%;
+    top: -20px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1492px) {
+    .personnage_presentation{
+        position: absolute;
+        width: 7%;
+        top: 66vh;
+        left: 10vh;
+    }    
+    
+    .diamant_svg{
+        top:50vh;
+        right: 47vh;
+    }
+    
+}
+
+@media screen and (max-width: 1433px) {  
+    .presentation p{
+        font-size: 20px;
+    }
+
+    .diamant_svg{
+        right: 45vh;
+    }
+
+    .competence img,.formation img{
+        margin-top: 12%;
+        width: 30%;
+    }
+
+    .titre_competences{
+        font-size: 20px;
+    }
+    
+    .coffre{
+        margin-top: 6%;
+        width: 13%;
+    }
+
+    .chiffre_experience{
+        width: 10%;
+    }
+
+    .information_experience{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .ubisoft, .webagency{
+        margin-left: 25%;
+    }
+
+    .information_formation p{
+        font-size: 15px;
+    }
+    .creativite{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1367px) {  
+    .presentation p{
+        font-size: 19px;
+    }
+    .diamant_svg{
+        right: 43vh;
+    }
+}
+
+@media screen and (max-width: 1251px) {  
+    .portrait{
+        display: none;
+    }
+
+    .presentation p{
+        font-size: 18px;
+    }
+
+    .personnage_presentation{
+        width: 7%;
+        top: 66vh;
+        left: 25vh;
+    } 
+
+    .diamant_svg{
+        top: 47vh;
+        right: 20vh;
+    }
+
+    .information_formation p{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .more {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .information{
+        margin: 50px 0;
+        padding: 0;
+    }
+    .block_gauche{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 250px;
+    }
+
+    .block_gauche h2{
+        padding-bottom: 10px;
+        writing-mode:horizontal-tb;
+        border-right: 0px;
+        border-bottom: 5px solid #9b2e18;
+    }
+
+    .block_droit{
+        display: flex;
+        justify-content: center;
+    }
+    .hobbies{
+        margin-top: 0px;
+    }
+
+    .langues{
+        margin-top: 0px;
+        width: 520px;
+    }
+}
+
+
+@media screen and (max-width: 1175px) {  
+    .presentation p {
+        width: 80%;
+        padding: 1em;
+    }
+
+    .personnage_presentation{
+        width: 5%;
+        top: 58vh;
+        left: 17vh;
+    } 
+
+    .diamant_svg{
+        top: 47vh;
+        right: 9vh;
+    }
+
+    .information{
+        display: block;
+    }
+
+    .competence img,.formation img{
+        margin-top: 5%;
+        width: 15%;
+    }
+
+    .title_icon{
+        display: none;
+    }
+
+    .couronne_title_icon{
+        display: block;
+        margin: 0 auto;
+        width: 10%;
+        margin-bottom: 20px;
+    }
+
+    .competence{
+        flex-direction: row;
+    }
+
+    .titre_competences{
+        font-size: 20px;
+    }
+    
+    .coffre{
+        margin-top: 6%;
+        width: 10%;
+    }
+    .experience{
+        display: block;
+    }
+
+    .chiffre_experience{
+        width: 10%;
+    }
+
+    .information_experience{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .ubisoft, .webagency{
+        margin:5% 0 5% 35%;
+    }
+
+    .information_formation p{
+        font-size: 15px;
+        justify-content: center;
+    }
+    .formation img{
+        margin: 50px 0;
+    }
+    .responsive_formation{
+        margin: 0;
+        padding:0;
+        display: flex;
+        justify-content: center;
+    }
+    .formation div{
+        margin: 0 0 100px 0;
+    }
+    .block_droit{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hobbies{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .hobbies h2{
+        padding-bottom: 10px;
+        writing-mode:horizontal-tb;
+        border-right: 0px;
+        border-bottom: 5px solid #9b2e18;
+    }
+
+    .langues{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .drapeau_icon{
+        flex-wrap: nowrap;
+    }
+
+    .langues h2{
+        padding-bottom: 10px;
+        writing-mode:horizontal-tb;
+        border-right: 0px;
+        border-bottom: 5px solid #9b2e18;
+    }
+
+    .block_gauche{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .experience{
+        border: 0px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {  
+    .presentation p{
+        width: 90%;
+        font-size: 19px;
+    }
+    .diamant_svg{
+        top: 43vh;
+        right: 0vh;
+    }
+    .personnage_presentation{
+        width: 5%;
+        top: 57vh;
+        left: 7vh;
+    }
+}
+
+@media screen and (max-width: 934px) {  
+    .personnage_presentation{
+        display: none;
+    }
+    .diamant_svg{
+        display: none;
+    }
+
+    .presentation{
+        display: block;
+        margin: 20px 10px;
+    }
+    .presentation p{
+        width: 95%;
+        font-size: 19px;
+    }
+    .responsive_formation{
+        display: block;
+    }
+    .formation div{
+        text-align: center;
+    }
+    .information_formation{
+        margin: 0;
+    }
+    .competence{
+        flex-direction: column;
+    }
+    .creativite img, .ecriture img, .design img{
+        width: 10%;
+    }
+    .presentation p{
+        margin-top: 100px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 635px) {  
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+    header p{
+        text-align: center;
+    }
+    .lien_martin{
+        justify-content: center;
+        text-align: center;
+        background-image: none;
+    }
+    .lien_martin a{
+        color: black;
+        margin: 0 auto;
+    }
+    .presentation p{
+        margin-top: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 556px) {  
+    .Pbar{
+        width: 100px;
+        margin-left: 0;
+    }
+    .multi_logo{
+        justify-content: center;
+    }
+    .logo_hobbies img{
+        width: 70px;
+    }
+    .hobbies{
+        width: 200px;
+    }
+
+    .hobbies h2{
+        padding-right: 0;
+    }
+    .langues{
+        width: 295px;
+    }
+    .drapeau{
+        width: 50px;
+        margin-left: 0;
+    }
+    .ubisoft, .webagency{
+        margin: 0;
+        margin-left: 12%;
+    }
+    .coffre{
+        margin-top: 50px;
+    }
+
+    .title_img{
+        width: 67vw;
+    }
+
+    .ubisoft, .webagency{
+        margin-left: 5%;
+    }
+}
+
+@media print {
+    .portrait{
+        display: none;
+    }
+    .title_img{
+        top: 3vh;
+    }
+
+    .presentation p {
+        font-size: 18px;
+        margin: 5px 0 50px;
+        width: 100%;
+        color: white;
+    }
+    .personnage_presentation{
+        position: absolute;
+        width: 5%;
+        top: 25vh;
+        left: 1vh;
+    }
+    
+    .diamant_svg{
+        display: none;
+    }
+    .formation div{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 2%;
+    }
+
+    .competence img, .formation img{
+        width: 15%;
+    }
+    .titre_competences{
+        font-size: 16px;
+    }
+    .chiffre_experience{
+        width: 8%;
+    }
+    .information_experience{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .hobbies{
+        margin-left: 17px;
+        margin-top: 16px;
+    }
+    .logo_hobbies img{
+        width: 65px;
+        padding: 10px;
+    }
+    .hobbies h2{
+        font-size: 16px;
+    }
+    .Pbar{
+        width: 150px;
+    }
+    .one_competence p{
+        width: 28px;
+    }
+    .presentation{
+        margin: 0 0 0 40px;
+    }
+    
+    .information_formation p{
+        font-size: 16px;
+        margin:30;
+    }
+    .information{
+        margin-bottom: 60px;
+    }
+    .experience{
+        border: 0px;
+    }
+    .coffre{
+        width: 8%;
+    }
+    .ubisoft, .webagency{
+        margin-left: 25%;
+    }
+    .drapeau {
+        padding: 15px;
+        width: 45px;
+        margin-left: 13px;
+    }
+    .block_droit{
+        margin-left: 200px;
+    }
+    .block_gauche{
+        margin-top: -20px;
+        margin-left: 200px;
+        height: 485px;
+    }
+}
